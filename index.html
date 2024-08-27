@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <link rel="icon" href="icons8-count-48.png" type="image/png">
+    <title> My Counter</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="d-flex justify-content-center align-items-center">
+
+    <div class="container"><h1>START COUNTING</h1>
+  
+     
+      
+       
+        <h2>People Visited the Restaurant : </h2>
+        <h3 id="count-el">0</h3>
+     
+        <div class="d-flex  flex-lg-row flex-column  justify-content-center mb-4">
+          <div><button id="increment-btn" onclick="increment()">INCREMENT</button></div>
+          <div><button id="save-btn" onclick="save()">SAVE</button></div>
+          <div><button id="clear-btn" onclick="clearAll()">RESET</button></div>
+      </div>
+      
+
+       <p>List of People : <span id="save-el"></span></p>
+
+      <p  class="last">Total People Visited : <span id="total"></span></p>
+    </div>
+    <script scr="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

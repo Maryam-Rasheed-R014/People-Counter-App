@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Poppin,  sans-serif;
+
+}
+
+
+body {
+
+    background-image: url("pexels-evonics-1058277.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    min-height: 100%;
+  
+  
+}
+
+.container {
+    margin: 50px auto;
+  width: 80%;
+    background-color: rgba(255, 239, 186, 0.7);
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); 
+ 
+   
+ 
+}
+
+h1 {
+ 
+    font-size: 3.5rem;
+    color: #333;
+    font-weight: bold;
+ 
+    padding: 20px 10px;
+
+    text-shadow:  3px 10px 8px rgb(235, 233, 233);
+ 
+  
+    border-radius: 3px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); 
+   
+   
+}
+
+
+
+
+
+h2 {
+    font-size: 2.5rem; 
+    color: #333;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+#count-el {
+    font-size: 3.5rem; 
+    color: #333;
+    margin:15px auto;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.8rem;
+    color: #333;
+margin-top: 10px;  
+}
+.last{
+    padding-bottom:30px
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 18px 25px;
+    border-radius: 10px;
+    border: none;
+ margin: 10px;
+    cursor: pointer;
+    width: 200px;
+    font-weight: 700;
+    transition: transform 0.2s, box-shadow 0.2s;
+    color: #ffff;
+}
+
+button:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+#increment-btn {
+    background-color: #f94914; 
+   
+}
+
+#save-btn {
+    background-color: #23ca29; 
+   
+}
+
+#clear-btn {
+    background-color: #1083e1; 
+   
+}
+
+    
